@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}

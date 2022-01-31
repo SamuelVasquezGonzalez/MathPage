@@ -1,0 +1,31 @@
+@media screen and (max-width: 1294px) {
+    .cuerpo{
+        height: auto;
+        max-height: none;
+    }
+    
+    .servicios{
+        height: auto;
+        max-height: none;
+        width: 100%;
+    }
+    
+    .cuerpo-mas{
+        height: auto;
+        max-height: none;
+    }
+    
+    .mas-servicios{
+        height: auto;
+        max-height: none;
+        width: 100%;
+    }
+
+    .cubo{
+        margin: 15px;
+        height: 210px;
+        max-height: 210px;
+        width: 46%;
+        max-width: 46%;
+    }
+}

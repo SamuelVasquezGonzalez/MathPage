@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cabeza.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/cuerpo.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Generar Tablas de multiplicar - MathMoment</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabeza">
+            <div class="titulo">
+                <i class="fas fa-calculator icon title"></i> 
+                <p class="p title">MathMoment</p></a>
+            </div>
+        </header>
+        <section class="cuerpo">
+            <div class="extra-wrapper">
+                <div class="operar">
+                    <div class="generar">
+                        <h2>Genere su tabla de multiplicar</h2>
+                        <input type="text" name="generar-1" maxlength="8" class="inputM numero1" placeholder="Ingrese el número a multiplicar">
+                        <input type="text" name="generar-1" maxlength="8" class="inputM numero2" placeholder="Ingrese las veces que se multiplicara">
+
+                        <button class="boton-general no-general">Generar Tabla <i class="fas fa-sync icon icon-cubo"></i></button>
+                    </div>
+                    <div class="resolver">
+                        <h2>Resuelva su ejercicio de multiplicación</h2>
+                        <input type="text" name="resolver1" class="inputM resolver1" placeholder="Ingrese el número multiplicado">
+                        <input type="text" name="resolver2" class="inputM resolver2" placeholder="Ingrese el número multiplicador">
+                        <button class="boton-general no-general">Resolver <i class="fas fa-sync icon icon-cubo"></i></button>
+                    </div>
+                </div>
+                
+                <div class="resultado-div">
+                    <div class="resultado-tablas">
+                        <h2>Tablas Generadas</h2>
+                    </div>
+                    <div class="resultado-multiplicacion">
+                        <h2>Resultado de multiplicación</h2>
+                        <div class="numeros">
+                            <div class="mostrador">
+                                <label class="multiplicado">12345</label>
+                                <div class="multiplicador">
+                                    <label class="simbolo">X</label>
+                                    <label class="tomado">12345</label>
+                                </div>
+                            </div>
+                            <label class="resultado">12345</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
