@@ -29,3 +29,13 @@
         max-width: 46%;
     }
 }
+
+@media screen and (max-width: 685px) {
+    .page-error{
+        display: block;
+    }
+
+    .container{
+        display: none;
+    }
+}

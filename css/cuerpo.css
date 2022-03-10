@@ -2,12 +2,13 @@
     --verdeNormal: rgb(0, 95, 0);
     --verdeHover: rgb(0, 80, 0);
     --verdeActive: rgb(0, 63, 0);
+    --fondo: rgb(0, 95, 0);
 }
 
 .cuerpo{
     width: 100%;
     padding: 20px 25px;
-    background-color: rgb(0, 95, 0);
+    background-color: var(--fondo);
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -238,6 +239,26 @@
 .no-general:hover .fa-sync{
     animation: rotar 1s infinite;
 }
+
+/* ------------ERROR PARA MOBILES ------------- */
+
+.page-error{
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    height: 100vh;
+}
+
+.error{
+    margin: 10px;
+}
+
+.error-parrafo{
+    color: white;
+    margin: 30px 20px;
+}
+
 /* ------------ FONDOS ----------- */
 
 .uno{
@@ -274,12 +295,19 @@
     background-position: -50px 36px;
 }
 
+.page-error{
+    background-image: url(../multimedia/operadores.png);
+    background-color: var(--fondo);
+    background-size: 120px;
+    background-position: -50px 120px;
+}
+
 /* ---------------- SECCION 2 -------------------------------- */
 
 .cuerpo-mas{
     width: 100%;
     padding: 20px 25px;
-    background-color: rgb(0, 95, 0);
+    background-color: var(--fondo);
     display: flex;
     flex-direction: column;
     height: 92vh;

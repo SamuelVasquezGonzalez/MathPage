@@ -4,7 +4,7 @@ const cuerpoOculto = document.querySelector(".cuerpo-mas");
 botonMostrar.addEventListener("click", mostrar);
 
 function mostrar () {
-    cuerpoOculto.classList.toggle("oculto");
+    cuerpoOculto.classList.toggle("oculto"); 
     clase = cuerpoOculto.classList;
     
     botonMostrar.innerHTML = 'Ver Menos <i class="fas fa-arrow-up"></i>';
@@ -15,5 +15,5 @@ function mostrar () {
         break;
     }
 
-    window.scroll(0, 1500);
+    window.scroll(0, 2000);
 }
